@@ -139,6 +139,8 @@ void main() {
 
 ##### With Numbers
 
+Note that dart automatically breaks out of a case even if there is no break.
+
 ```dart
 void main() {
 
@@ -430,7 +432,11 @@ class UserService with Logger {
   * `identical(p1, p2)`: Checks if two objects are the same. (variables point to the same object).
   * `object.runtimeType`: Gives the type of the object. (The name of the class from which the object was created).
 
-## 6\. Challenges
+## 6\. Challenge
 
-1. Print the number of days in a month without using if statements.
-2. Implement a linked stack in dart.
+1. Implement a linked stack in dart.
+
+## 7. TODO Next Week
+
+1. Create a weather app with a CLI
+2. Create a chat
